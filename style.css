@@ -66,6 +66,9 @@
 .card4{
     background-image:  linear-gradient(45deg , rgb(20, 117, 0) , rgba(81, 255, 0, 0.322)) , url(./image/textspeech.jpg);    
 }
+.card5{
+    background-image:  linear-gradient(45deg , rgb(117, 4, 0) , rgba(255, 0, 0, 0.322)) , url(./image/covid.jpg);    
+}
 @media screen and (min-width:400px) and (max-width: 768px) {
     .img-card{
         left: 15%;
