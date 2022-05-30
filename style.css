@@ -1,0 +1,96 @@
+.img1{
+    max-width: 456px;
+    min-width: 300px;
+    width: 100%;
+    position: relative;
+    right: 50%;
+    bottom: 0px;
+}
+.div{
+    width: inherit;
+    height: 100%;
+}
+.top{
+    top: 30%;
+}
+.dark1{
+    background-color: #2c2c2c;
+}
+.dark2{
+    background-color: #313131;
+}
+.bold{
+    font-weight: 900px important! ;
+}
+.line{
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ffb633;
+}
+.img{
+    width: 250px;
+    border: solid #313131 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: -40px;
+    left: 40px;
+}
+.border-img{
+    width: 250px;
+    height: 300px;
+    border: solid 15px #ffb633;
+    position: absolute;
+}
+.h{
+    height: 330px;
+}
+.cards{
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+}
+.card1{
+    background-image:  linear-gradient(45deg , rgb(0, 0, 190) , rgba(0, 0, 255, 0.247)) , url(./card.jpg);    
+}
+.card2{
+    background-image:  linear-gradient(45deg , rgb(190, 171, 0) , rgba(132, 134, 2, 0.247)) , url(./card.jpg);    
+}
+.card3{
+    background-image:  linear-gradient(45deg , rgb(176, 0, 182) , rgba(255, 0, 242, 0.247)) , url(./card.jpg);    
+}
+.card4{
+    background-image:  linear-gradient(45deg , rgb(20, 117, 0) , rgba(81, 255, 0, 0.322)) , url(./card.jpg);    
+}
+@media screen and (min-width:400px) and (max-width: 768px) {
+    .img-card{
+        left: 15%;
+    }
+}
+.x{
+    z-index: 1;
+}
+.sotioal{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    transition: 0.5s;
+}
+.bi-whatsapp:hover{
+    color: rgb(0, 122, 0);
+    transition: 0.5s;
+}
+.bi-twitter:hover{
+    color: rgb(7, 170, 148);
+    transition: 0.5s;
+}
+.bi-linkedin:hover{
+    color: rgb(0, 49, 155);
+    transition: 0.5s;
+}
+.bi-youtube:hover{
+    color: rgb(189, 0, 0);
+    transition: 0.5s;
+}
