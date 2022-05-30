@@ -10,6 +10,9 @@
     width: inherit;
     height: 100%;
 }
+#me{
+    min-height: 395px;
+}
 .top{
     top: 30%;
 }
@@ -83,7 +86,7 @@
     transition: 0.5s;
 }
 .bi-whatsapp:hover{
-    color: rgb(0, 122, 0);
+    color: #25D366;
     transition: 0.5s;
 }
 .bi-twitter:hover{
@@ -94,7 +97,12 @@
     color: rgb(0, 49, 155);
     transition: 0.5s;
 }
-.bi-youtube:hover{
-    color: rgb(189, 0, 0);
-    transition: 0.5s;
+.bi-telephone:hover{
+    color: rgb(6, 189, 0);
+    animation: sotialAnim 10s ;
+    /* transition: 0.5s; */
+}
+@keyframes sotialAnim {
+  0%,100% {transform:rotate(0deg);}
+  25%,75% {transform:rotate(30deg);}
 }
